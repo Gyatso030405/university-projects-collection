@@ -1,0 +1,8 @@
+aht10_iic.c:11:6:AHT10_IIC_Init	40	static
+aht10_iic.c:36:6:AHT10_IIC_Start	8	static
+aht10_iic.c:47:6:AHT10_IIC_Stop	8	static
+aht10_iic.c:60:9:AHT10_IIC_Wait_Ack	16	static
+aht10_iic.c:79:6:AHT10_IIC_Ack	8	static
+aht10_iic.c:90:6:AHT10_IIC_NAck	8	static
+aht10_iic.c:104:6:AHT10_IIC_Send_Byte	24	static
+aht10_iic.c:129:9:AHT10_IIC_Read_Byte	24	static

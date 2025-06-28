@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1703935265 source:d:\test.程序设计\数据结构7\main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+

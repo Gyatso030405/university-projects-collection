@@ -1,0 +1,4 @@
+aht10.c:14:6:AHT10_RST	8	static
+aht10.c:24:6:AHT10Init	8	static
+aht10.c:35:6:AHT10_Init	8	static
+aht10.c:56:6:AHT10_Read	24	static

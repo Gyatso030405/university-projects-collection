@@ -1,0 +1,23 @@
+
+**** Build of configuration Debug for project sixth_test ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building target: "sixth_test.out"
+Invoking: MSP430 Linker
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2253__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"sixth_test.map" --heap_size=80 --stack_size=80 -i"D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/lib" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="sixth_test_linkInfo.xml" --use_hw_mpy=none --rom_model -o "sixth_test.out" "./main.obj" "../lnk_msp430g2253.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+"../lnk_msp430g2253.cmd", line 96: error #10099-D: program will not fit into available memory, or the section contains a call site that requires a trampoline that can't be generated for this section. placement with alignment fails for section ".text" size 0x550.  Available memory ranges:
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+ 
+>> Compilation failure
+makefile:135: recipe for target 'sixth_test.out' failed
+   FLASH        size: 0x7de        unused: 0x1ee        max hole: 0x1ee     
+error #10010: errors encountered during linking; "sixth_test.out" not built
+gmake[1]: *** [sixth_test.out] Error 1
+makefile:131: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****

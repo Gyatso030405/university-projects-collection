@@ -1,0 +1,9 @@
+
+**** Build of configuration Debug for project car_frame ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'car_frame.out' is up to date.
+gmake[1]: Nothing to be done for 'secondary-outputs'.
+
+**** Build Finished ****

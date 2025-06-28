@@ -1,0 +1,1567 @@
+
+**** Clean-only build of configuration Debug for project car_frame ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 clean -O 
+ 
+DEL /F  "car_frame.out" 
+DEL /F "main.obj" 
+DEL /F "main.d" 
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project car_frame ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" --include_path="D:/Downloads/ti/workspace_v12/car_frame" --include_path="D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building target: "car_frame.out"
+Invoking: MSP430 Linker
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"car_frame.map" --heap_size=80 --stack_size=80 -i"D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/lib" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="car_frame_linkInfo.xml" --use_hw_mpy=none --rom_model -o "car_frame.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+Finished building target: "car_frame.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project car_frame ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'car_frame.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project car_frame ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'car_frame.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project car_frame ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'car_frame.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project car_frame ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'car_frame.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project car_frame ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'car_frame.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project car_frame ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'car_frame.out' is up to date.
+Building secondary target: "car_frame.txt"
+Invoking: MSP430 Hex Utility
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/hex430" --memwidth=8 --romwidth=8 --diag_wrap=off --ti_txt -o "car_frame.txt"  "car_frame.out" 
+Translating to TI-TXT format...
+   "car_frame.out" .text ==> .text
+   "car_frame.out" .const ==> .const
+   "car_frame.out" .cinit ==> .cinit
+   "car_frame.out" $fill000 ==> $fill000
+   "car_frame.out" TRAPINT ==> TRAPINT
+   "car_frame.out" PORT1 ==> PORT1
+   "car_frame.out" PORT2 ==> PORT2
+   "car_frame.out" ADC10 ==> ADC10
+   "car_frame.out" USCIAB0TX ==> USCIAB0TX
+   "car_frame.out" USCIAB0RX ==> USCIAB0RX
+   "car_frame.out" TIMER0_A1 ==> TIMER0_A1
+   "car_frame.out" TIMER0_A0 ==> TIMER0_A0
+   "car_frame.out" WDT ==> WDT
+   "car_frame.out" COMPARATORA ==> COMPARATORA
+   "car_frame.out" TIMER1_A1 ==> TIMER1_A1
+   "car_frame.out" TIMER1_A0 ==> TIMER1_A0
+   "car_frame.out" NMI ==> NMI
+   "car_frame.out" .reset ==> .reset
+Finished building secondary target: "car_frame.txt"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project car_frame ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'car_frame.out' is up to date.
+gmake[1]: Nothing to be done for 'secondary-outputs'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project car_frame ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'car_frame.out' is up to date.
+gmake[1]: Nothing to be done for 'secondary-outputs'.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project oled_test ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 clean -O 
+ 
+DEL /F  "oled_test.out" 
+DEL /F "main.obj" 
+DEL /F "main.d" 
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project oled_test ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" --include_path="D:/Downloads/ti/workspace_v12/oled_test" --include_path="D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building target: "oled_test.out"
+Invoking: MSP430 Linker
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"oled_test.map" --heap_size=80 --stack_size=80 -i"D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/lib" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="oled_test_linkInfo.xml" --use_hw_mpy=none --rom_model -o "oled_test.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+Finished building target: "oled_test.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project oled_test ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'oled_test.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project car_frame ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'car_frame.out' is up to date.
+gmake[1]: Nothing to be done for 'secondary-outputs'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project oled_test ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'oled_test.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project oled_test ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'oled_test.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project oled_test ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'oled_test.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project car_frame ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'car_frame.out' is up to date.
+gmake[1]: Nothing to be done for 'secondary-outputs'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project car_frame ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'car_frame.out' is up to date.
+gmake[1]: Nothing to be done for 'secondary-outputs'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project car_frame ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'car_frame.out' is up to date.
+gmake[1]: Nothing to be done for 'secondary-outputs'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project car_frame ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'car_frame.out' is up to date.
+gmake[1]: Nothing to be done for 'secondary-outputs'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project car_frame ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'car_frame.out' is up to date.
+gmake[1]: Nothing to be done for 'secondary-outputs'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project car_frame ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'car_frame.out' is up to date.
+gmake[1]: Nothing to be done for 'secondary-outputs'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project oled_test ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'oled_test.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project oled_test ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'oled_test.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project car_frame ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'car_frame.out' is up to date.
+gmake[1]: Nothing to be done for 'secondary-outputs'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project car_frame ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" --include_path="D:/Downloads/ti/workspace_v12/car_frame" --include_path="D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building target: "car_frame.out"
+Invoking: MSP430 Linker
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"car_frame.map" --heap_size=80 --stack_size=80 -i"D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/lib" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="car_frame_linkInfo.xml" --use_hw_mpy=none --rom_model -o "car_frame.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+Finished building target: "car_frame.out"
+ 
+Building secondary target: "car_frame.txt"
+Invoking: MSP430 Hex Utility
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/hex430" --memwidth=8 --romwidth=8 --diag_wrap=off --ti_txt -o "car_frame.txt"  "car_frame.out" 
+Translating to TI-TXT format...
+   "car_frame.out" .text ==> .text
+   "car_frame.out" .const ==> .const
+   "car_frame.out" .cinit ==> .cinit
+   "car_frame.out" $fill000 ==> $fill000
+   "car_frame.out" TRAPINT ==> TRAPINT
+   "car_frame.out" PORT1 ==> PORT1
+   "car_frame.out" PORT2 ==> PORT2
+   "car_frame.out" ADC10 ==> ADC10
+   "car_frame.out" USCIAB0TX ==> USCIAB0TX
+   "car_frame.out" USCIAB0RX ==> USCIAB0RX
+   "car_frame.out" TIMER0_A1 ==> TIMER0_A1
+   "car_frame.out" TIMER0_A0 ==> TIMER0_A0
+   "car_frame.out" WDT ==> WDT
+   "car_frame.out" COMPARATORA ==> COMPARATORA
+   "car_frame.out" TIMER1_A1 ==> TIMER1_A1
+   "car_frame.out" TIMER1_A0 ==> TIMER1_A0
+   "car_frame.out" NMI ==> NMI
+   "car_frame.out" .reset ==> .reset
+Finished building secondary target: "car_frame.txt"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project car_frame ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" --include_path="D:/Downloads/ti/workspace_v12/car_frame" --include_path="D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building target: "car_frame.out"
+Invoking: MSP430 Linker
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"car_frame.map" --heap_size=80 --stack_size=80 -i"D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/lib" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="car_frame_linkInfo.xml" --use_hw_mpy=none --rom_model -o "car_frame.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+Finished building target: "car_frame.out"
+ 
+Building secondary target: "car_frame.txt"
+Invoking: MSP430 Hex Utility
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/hex430" --memwidth=8 --romwidth=8 --diag_wrap=off --ti_txt -o "car_frame.txt"  "car_frame.out" 
+Translating to TI-TXT format...
+   "car_frame.out" .text ==> .text
+   "car_frame.out" .const ==> .const
+   "car_frame.out" .cinit ==> .cinit
+   "car_frame.out" $fill000 ==> $fill000
+   "car_frame.out" TRAPINT ==> TRAPINT
+   "car_frame.out" PORT1 ==> PORT1
+   "car_frame.out" PORT2 ==> PORT2
+   "car_frame.out" ADC10 ==> ADC10
+   "car_frame.out" USCIAB0TX ==> USCIAB0TX
+   "car_frame.out" USCIAB0RX ==> USCIAB0RX
+   "car_frame.out" TIMER0_A1 ==> TIMER0_A1
+   "car_frame.out" TIMER0_A0 ==> TIMER0_A0
+   "car_frame.out" WDT ==> WDT
+   "car_frame.out" COMPARATORA ==> COMPARATORA
+   "car_frame.out" TIMER1_A1 ==> TIMER1_A1
+   "car_frame.out" TIMER1_A0 ==> TIMER1_A0
+   "car_frame.out" NMI ==> NMI
+   "car_frame.out" .reset ==> .reset
+Finished building secondary target: "car_frame.txt"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project car_frame ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" --include_path="D:/Downloads/ti/workspace_v12/car_frame" --include_path="D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building target: "car_frame.out"
+Invoking: MSP430 Linker
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"car_frame.map" --heap_size=80 --stack_size=80 -i"D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/lib" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="car_frame_linkInfo.xml" --use_hw_mpy=none --rom_model -o "car_frame.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+Finished building target: "car_frame.out"
+ 
+Building secondary target: "car_frame.txt"
+Invoking: MSP430 Hex Utility
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/hex430" --memwidth=8 --romwidth=8 --diag_wrap=off --ti_txt -o "car_frame.txt"  "car_frame.out" 
+Translating to TI-TXT format...
+   "car_frame.out" .text ==> .text
+   "car_frame.out" .const ==> .const
+   "car_frame.out" .cinit ==> .cinit
+   "car_frame.out" $fill000 ==> $fill000
+   "car_frame.out" TRAPINT ==> TRAPINT
+   "car_frame.out" PORT1 ==> PORT1
+   "car_frame.out" PORT2 ==> PORT2
+   "car_frame.out" ADC10 ==> ADC10
+   "car_frame.out" USCIAB0TX ==> USCIAB0TX
+   "car_frame.out" USCIAB0RX ==> USCIAB0RX
+   "car_frame.out" TIMER0_A1 ==> TIMER0_A1
+   "car_frame.out" TIMER0_A0 ==> TIMER0_A0
+   "car_frame.out" WDT ==> WDT
+   "car_frame.out" COMPARATORA ==> COMPARATORA
+   "car_frame.out" TIMER1_A1 ==> TIMER1_A1
+   "car_frame.out" TIMER1_A0 ==> TIMER1_A0
+   "car_frame.out" NMI ==> NMI
+   "car_frame.out" .reset ==> .reset
+Finished building secondary target: "car_frame.txt"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project car_frame ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" --include_path="D:/Downloads/ti/workspace_v12/car_frame" --include_path="D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building target: "car_frame.out"
+Invoking: MSP430 Linker
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"car_frame.map" --heap_size=80 --stack_size=80 -i"D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/lib" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="car_frame_linkInfo.xml" --use_hw_mpy=none --rom_model -o "car_frame.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+Finished building target: "car_frame.out"
+ 
+Building secondary target: "car_frame.txt"
+Invoking: MSP430 Hex Utility
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/hex430" --memwidth=8 --romwidth=8 --diag_wrap=off --ti_txt -o "car_frame.txt"  "car_frame.out" 
+Translating to TI-TXT format...
+   "car_frame.out" .text ==> .text
+   "car_frame.out" .const ==> .const
+   "car_frame.out" .cinit ==> .cinit
+   "car_frame.out" $fill000 ==> $fill000
+   "car_frame.out" TRAPINT ==> TRAPINT
+   "car_frame.out" PORT1 ==> PORT1
+   "car_frame.out" PORT2 ==> PORT2
+   "car_frame.out" ADC10 ==> ADC10
+   "car_frame.out" USCIAB0TX ==> USCIAB0TX
+   "car_frame.out" USCIAB0RX ==> USCIAB0RX
+   "car_frame.out" TIMER0_A1 ==> TIMER0_A1
+   "car_frame.out" TIMER0_A0 ==> TIMER0_A0
+   "car_frame.out" WDT ==> WDT
+   "car_frame.out" COMPARATORA ==> COMPARATORA
+   "car_frame.out" TIMER1_A1 ==> TIMER1_A1
+   "car_frame.out" TIMER1_A0 ==> TIMER1_A0
+   "car_frame.out" NMI ==> NMI
+   "car_frame.out" .reset ==> .reset
+Finished building secondary target: "car_frame.txt"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project car_frame ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" --include_path="D:/Downloads/ti/workspace_v12/car_frame" --include_path="D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building target: "car_frame.out"
+Invoking: MSP430 Linker
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"car_frame.map" --heap_size=80 --stack_size=80 -i"D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/lib" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="car_frame_linkInfo.xml" --use_hw_mpy=none --rom_model -o "car_frame.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+Finished building target: "car_frame.out"
+ 
+Building secondary target: "car_frame.txt"
+Invoking: MSP430 Hex Utility
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/hex430" --memwidth=8 --romwidth=8 --diag_wrap=off --ti_txt -o "car_frame.txt"  "car_frame.out" 
+Translating to TI-TXT format...
+   "car_frame.out" .text ==> .text
+   "car_frame.out" .const ==> .const
+   "car_frame.out" .cinit ==> .cinit
+   "car_frame.out" $fill000 ==> $fill000
+   "car_frame.out" TRAPINT ==> TRAPINT
+   "car_frame.out" PORT1 ==> PORT1
+   "car_frame.out" PORT2 ==> PORT2
+   "car_frame.out" ADC10 ==> ADC10
+   "car_frame.out" USCIAB0TX ==> USCIAB0TX
+   "car_frame.out" USCIAB0RX ==> USCIAB0RX
+   "car_frame.out" TIMER0_A1 ==> TIMER0_A1
+   "car_frame.out" TIMER0_A0 ==> TIMER0_A0
+   "car_frame.out" WDT ==> WDT
+   "car_frame.out" COMPARATORA ==> COMPARATORA
+   "car_frame.out" TIMER1_A1 ==> TIMER1_A1
+   "car_frame.out" TIMER1_A0 ==> TIMER1_A0
+   "car_frame.out" NMI ==> NMI
+   "car_frame.out" .reset ==> .reset
+Finished building secondary target: "car_frame.txt"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project first_test ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" --include_path="D:/Downloads/ti/workspace_v12/first_test" --include_path="D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --advice:power=all --define=__MSP430G2253__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 26: warning #112-D: statement is unreachable
+Finished building: "../main.c"
+ 
+Building target: "first_test.out"
+Invoking: MSP430 Linker
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2253__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"first_test.map" --heap_size=80 --stack_size=80 -i"D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/lib" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="first_test_linkInfo.xml" --use_hw_mpy=none --rom_model -o "first_test.out" "./main.obj" "../lnk_msp430g2253.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "first_test.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project second_test ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" --include_path="D:/Downloads/ti/workspace_v12/second_test" --include_path="D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --advice:power=all --define=__MSP430G2253__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 25: warning #112-D: statement is unreachable
+Finished building: "../main.c"
+ 
+Building target: "second_test.out"
+Invoking: MSP430 Linker
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2253__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"second_test.map" --heap_size=80 --stack_size=80 -i"D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/lib" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="second_test_linkInfo.xml" --use_hw_mpy=none --rom_model -o "second_test.out" "./main.obj" "../lnk_msp430g2253.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "second_test.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project second_test ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" --include_path="D:/Downloads/ti/workspace_v12/second_test" --include_path="D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --advice:power=all --define=__MSP430G2253__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 25: warning #112-D: statement is unreachable
+Finished building: "../main.c"
+ 
+Building target: "second_test.out"
+Invoking: MSP430 Linker
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2253__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"second_test.map" --heap_size=80 --stack_size=80 -i"D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/lib" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="second_test_linkInfo.xml" --use_hw_mpy=none --rom_model -o "second_test.out" "./main.obj" "../lnk_msp430g2253.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "second_test.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project third_test ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" --include_path="D:/Downloads/ti/workspace_v12/third_test" --include_path="D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --advice:power=all --define=__MSP430G2253__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building target: "third_test.out"
+Invoking: MSP430 Linker
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2253__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"third_test.map" --heap_size=80 --stack_size=80 -i"D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/lib" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="third_test_linkInfo.xml" --use_hw_mpy=none --rom_model -o "third_test.out" "./main.obj" "../lnk_msp430g2253.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "third_test.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project third_test ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" --include_path="D:/Downloads/ti/workspace_v12/third_test" --include_path="D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --advice:power=all --define=__MSP430G2253__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 38: error #37: the #if for this directive is missing
+"../main.c", line 39: error #131: expected a "{"
+"../main.c", line 40: error #37: the #if for this directive is missing
+"../main.c", line 41: fatal error #35: #error directive: Compiler not supported!
+3 errors and 1 catastrophic error detected in the compilation of "../main.c".
+Compilation terminated.
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project third_test ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" --include_path="D:/Downloads/ti/workspace_v12/third_test" --include_path="D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --advice:power=all --define=__MSP430G2253__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 49: error #37: the #if for this directive is missing
+"../main.c", line 50: error #131: expected a "{"
+"../main.c", line 51: error #37: the #if for this directive is missing
+"../main.c", line 52: fatal error #35: #error directive: Compiler not supported!
+3 errors and 1 catastrophic error detected in the compilation of "../main.c".
+Compilation terminated.
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project third_test ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" --include_path="D:/Downloads/ti/workspace_v12/third_test" --include_path="D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --advice:power=all --define=__MSP430G2253__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 48: error #171: expected a declaration
+1 error detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project third_test ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" --include_path="D:/Downloads/ti/workspace_v12/third_test" --include_path="D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --advice:power=all --define=__MSP430G2253__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 47: error #37: the #if for this directive is missing
+"../main.c", line 48: error #171: expected a declaration
+2 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project third_test ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" --include_path="D:/Downloads/ti/workspace_v12/third_test" --include_path="D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --advice:power=all --define=__MSP430G2253__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 49: error #249: function "Port_1" has already been defined
+1 error detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project third_test ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" --include_path="D:/Downloads/ti/workspace_v12/third_test" --include_path="D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --advice:power=all --define=__MSP430G2253__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building target: "third_test.out"
+Invoking: MSP430 Linker
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2253__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"third_test.map" --heap_size=80 --stack_size=80 -i"D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/lib" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="third_test_linkInfo.xml" --use_hw_mpy=none --rom_model -o "third_test.out" "./main.obj" "../lnk_msp430g2253.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "third_test.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project third_test ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'third_test.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project third_test ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'third_test.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project third_test ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" --include_path="D:/Downloads/ti/workspace_v12/third_test" --include_path="D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --advice:power=all --define=__MSP430G2253__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building target: "third_test.out"
+Invoking: MSP430 Linker
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2253__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"third_test.map" --heap_size=80 --stack_size=80 -i"D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/lib" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="third_test_linkInfo.xml" --use_hw_mpy=none --rom_model -o "third_test.out" "./main.obj" "../lnk_msp430g2253.cmd"  -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "third_test.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project forth_test ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" --include_path="D:/Downloads/ti/workspace_v12/forth_test" --include_path="D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --advice:power=all --define=__MSP430G2253__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 49: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "forth_test.out"
+Invoking: MSP430 Linker
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2253__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"forth_test.map" --heap_size=80 --stack_size=80 -i"D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/lib" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="forth_test_linkInfo.xml" --use_hw_mpy=none --rom_model -o "forth_test.out" "./main.obj" "../lnk_msp430g2253.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "forth_test.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project forth_test ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" --include_path="D:/Downloads/ti/workspace_v12/forth_test" --include_path="D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --advice:power=all --define=__MSP430G2253__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 75: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "forth_test.out"
+Invoking: MSP430 Linker
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2253__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"forth_test.map" --heap_size=80 --stack_size=80 -i"D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/lib" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="forth_test_linkInfo.xml" --use_hw_mpy=none --rom_model -o "forth_test.out" "./main.obj" "../lnk_msp430g2253.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "forth_test.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project forth_test ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" --include_path="D:/Downloads/ti/workspace_v12/forth_test" --include_path="D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --advice:power=all --define=__MSP430G2253__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building target: "forth_test.out"
+Invoking: MSP430 Linker
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2253__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"forth_test.map" --heap_size=80 --stack_size=80 -i"D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/lib" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="forth_test_linkInfo.xml" --use_hw_mpy=none --rom_model -o "forth_test.out" "./main.obj" "../lnk_msp430g2253.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "forth_test.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project forth_test ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" --include_path="D:/Downloads/ti/workspace_v12/forth_test" --include_path="D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --advice:power=all --define=__MSP430G2253__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 75: warning #70-D: integer conversion resulted in truncation
+"../main.c", line 75: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "forth_test.out"
+Invoking: MSP430 Linker
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2253__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"forth_test.map" --heap_size=80 --stack_size=80 -i"D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/lib" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="forth_test_linkInfo.xml" --use_hw_mpy=none --rom_model -o "forth_test.out" "./main.obj" "../lnk_msp430g2253.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "forth_test.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project forth_test ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" --include_path="D:/Downloads/ti/workspace_v12/forth_test" --include_path="D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --advice:power=all --define=__MSP430G2253__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 97: remark #1540-D: (ULP 11.2) Assignment of higher bits (constants) to "P1OUT" within a loop. Recommend using lower 4 bits to allow use of constant generators
+"../main.c", line 98: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 98: remark #1533-D: (ULP 6.1) Detected use of multiplication on a device that has no hardware multiplier
+"../main.c", line 98: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 100: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 100: remark #1533-D: (ULP 6.1) Detected use of multiplication on a device that has no hardware multiplier
+"../main.c", line 100: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 334 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 335 (col. 10): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 336 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 337 (col. 10): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 338 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 339 (col. 10): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 341 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 342 (col. 10): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 343 (col. 10): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 344 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 345 (col. 10): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 346 (col. 10): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 347 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 348 (col. 10): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 349 (col. 10): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 351 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 352 (col. 11): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 353 (col. 11): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 355 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 356 (col. 11): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 357 (col. 11): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 359 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 360 (col. 11): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 361 (col. 11): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 363 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 364 (col. 10): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 365 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 366 (col. 10): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 367 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 368 (col. 10): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 374 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 375 (col. 10): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 376 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 377 (col. 10): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 378 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 379 (col. 10): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 396 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 398 (col. 9): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 400 (col. 13): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 404 (col. 9): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 406 (col. 13): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 413 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 415 (col. 9): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 417 (col. 13): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 421 (col. 9): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 423 (col. 13): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 430 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 432 (col. 9): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 434 (col. 13): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 438 (col. 9): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 440 (col. 13): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 98 (col. 19): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 100 (col. 19): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+Finished building: "../main.c"
+ 
+Building target: "forth_test.out"
+Invoking: MSP430 Linker
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2253__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"forth_test.map" --heap_size=80 --stack_size=80 -i"D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/lib" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="forth_test_linkInfo.xml" --use_hw_mpy=none --rom_model -o "forth_test.out" "./main.obj" "../lnk_msp430g2253.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+"../lnk_msp430g2253.cmd", line 96: error #10099-D: program will not fit into available memory, or the section contains a call site that requires a trampoline that can't be generated for this section. placement with alignment fails for section ".text" size 0x3b54.  Available memory ranges:
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+ 
+>> Compilation failure
+makefile:135: recipe for target 'forth_test.out' failed
+   FLASH        size: 0x7de        unused: 0x7de        max hole: 0x7de     
+error #10010: errors encountered during linking; "forth_test.out" not built
+gmake[1]: *** [forth_test.out] Error 1
+makefile:131: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project forth_test ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" --include_path="D:/Downloads/ti/workspace_v12/forth_test" --include_path="D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --advice:power=all --define=__MSP430G2253__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 63: warning #9-D: nested comment is not allowed
+"../main.c", line 69: error #20: identifier "WDTCTL" is undefined
+"../main.c", line 69: error #20: identifier "WDTPW" is undefined
+"../main.c", line 69: error #20: identifier "WDTHOLD" is undefined
+"../main.c", line 70: error #20: identifier "P1DIR" is undefined
+"../main.c", line 70: error #20: identifier "BIT0" is undefined
+"../main.c", line 76: error #20: identifier "P1OUT" is undefined
+"../main.c", line 77: warning #70-D: integer conversion resulted in truncation
+"../main.c", line 77: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 80: error #41: expected an identifier
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/intrinsics.h", line 53: warning #12-D: parsing restarts here after previous syntax error
+"../main.c", line 84: error #249: function "main" has already been defined
+"../main.c", line 96: remark #1540-D: (ULP 11.2) Assignment of higher bits (constants) to "P1OUT" within a loop. Recommend using lower 4 bits to allow use of constant generators
+"../main.c", line 97: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 97: remark #1533-D: (ULP 6.1) Detected use of multiplication on a device that has no hardware multiplier
+"../main.c", line 97: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 99: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 99: remark #1533-D: (ULP 6.1) Detected use of multiplication on a device that has no hardware multiplier
+"../main.c", line 99: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+8 errors detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project forth_test ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" --include_path="D:/Downloads/ti/workspace_v12/forth_test" --include_path="D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --advice:power=all --define=__MSP430G2253__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 63: warning #9-D: nested comment is not allowed
+"../main.c", line 96: remark #1540-D: (ULP 11.2) Assignment of higher bits (constants) to "P1OUT" within a loop. Recommend using lower 4 bits to allow use of constant generators
+"../main.c", line 97: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 97: remark #1533-D: (ULP 6.1) Detected use of multiplication on a device that has no hardware multiplier
+"../main.c", line 97: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 99: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 99: remark #1533-D: (ULP 6.1) Detected use of multiplication on a device that has no hardware multiplier
+"../main.c", line 99: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 334 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 335 (col. 10): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 336 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 337 (col. 10): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 338 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 339 (col. 10): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 341 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 342 (col. 10): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 343 (col. 10): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 344 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 345 (col. 10): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 346 (col. 10): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 347 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 348 (col. 10): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 349 (col. 10): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 351 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 352 (col. 11): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 353 (col. 11): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 355 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 356 (col. 11): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 357 (col. 11): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 359 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 360 (col. 11): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 361 (col. 11): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 363 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 364 (col. 10): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 365 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 366 (col. 10): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 367 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 368 (col. 10): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 374 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 375 (col. 10): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 376 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 377 (col. 10): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 378 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 379 (col. 10): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 396 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 398 (col. 9): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 400 (col. 13): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 404 (col. 9): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 406 (col. 13): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 413 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 415 (col. 9): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 417 (col. 13): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 421 (col. 9): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 423 (col. 13): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 430 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 432 (col. 9): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 434 (col. 13): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 438 (col. 9): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 440 (col. 13): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 97 (col. 19): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 99 (col. 19): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+Finished building: "../main.c"
+ 
+Building target: "forth_test.out"
+Invoking: MSP430 Linker
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2253__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"forth_test.map" --heap_size=80 --stack_size=80 -i"D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/lib" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="forth_test_linkInfo.xml" --use_hw_mpy=none --rom_model -o "forth_test.out" "./main.obj" "../lnk_msp430g2253.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+"../lnk_msp430g2253.cmd", line 96: error #10099-D: program will not fit into available memory, or the section contains a call site that requires a trampoline that can't be generated for this section. placement with alignment fails for section ".text" size 0x3b54.  Available memory ranges:
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+ 
+>> Compilation failure
+makefile:135: recipe for target 'forth_test.out' failed
+   FLASH        size: 0x7de        unused: 0x7de        max hole: 0x7de     
+error #10010: errors encountered during linking; "forth_test.out" not built
+gmake[1]: *** [forth_test.out] Error 1
+makefile:131: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project forth_test ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" --include_path="D:/Downloads/ti/workspace_v12/forth_test" --include_path="D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --advice:power=all --define=__MSP430G2253__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 96: remark #1540-D: (ULP 11.2) Assignment of higher bits (constants) to "P1OUT" within a loop. Recommend using lower 4 bits to allow use of constant generators
+"../main.c", line 97: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 97: remark #1533-D: (ULP 6.1) Detected use of multiplication on a device that has no hardware multiplier
+"../main.c", line 97: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 99: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 99: remark #1533-D: (ULP 6.1) Detected use of multiplication on a device that has no hardware multiplier
+"../main.c", line 99: remark #1530-D: (ULP 5.1) Detected divide operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 334 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 335 (col. 10): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 336 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 337 (col. 10): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 338 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 339 (col. 10): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 341 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 342 (col. 10): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 343 (col. 10): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 344 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 345 (col. 10): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 346 (col. 10): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 347 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 348 (col. 10): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 349 (col. 10): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 351 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 352 (col. 11): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 353 (col. 11): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 355 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 356 (col. 11): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 357 (col. 11): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 359 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 360 (col. 11): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 361 (col. 11): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 363 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 364 (col. 10): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 365 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 366 (col. 10): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 367 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 368 (col. 10): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 374 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 375 (col. 10): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 376 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 377 (col. 10): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 378 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 379 (col. 10): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 396 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 398 (col. 9): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 400 (col. 13): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 404 (col. 9): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 406 (col. 13): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 413 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 415 (col. 9): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 417 (col. 13): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 421 (col. 9): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 423 (col. 13): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 430 (col. 37): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 432 (col. 9): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 434 (col. 13): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 438 (col. 9): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include/_defs.h", line 440 (col. 13): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 97 (col. 19): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 99 (col. 19): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+Finished building: "../main.c"
+ 
+Building target: "forth_test.out"
+Invoking: MSP430 Linker
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2253__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"forth_test.map" --heap_size=80 --stack_size=80 -i"D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/lib" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="forth_test_linkInfo.xml" --use_hw_mpy=none --rom_model -o "forth_test.out" "./main.obj" "../lnk_msp430g2253.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+"../lnk_msp430g2253.cmd", line 96: error #10099-D: program will not fit into available memory, or the section contains a call site that requires a trampoline that can't be generated for this section. placement with alignment fails for section ".text" size 0x3b54.  Available memory ranges:
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+ 
+>> Compilation failure
+makefile:135: recipe for target 'forth_test.out' failed
+   FLASH        size: 0x7de        unused: 0x7de        max hole: 0x7de     
+error #10010: errors encountered during linking; "forth_test.out" not built
+gmake[1]: *** [forth_test.out] Error 1
+makefile:131: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project forth_test ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" --include_path="D:/Downloads/ti/workspace_v12/forth_test" --include_path="D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --advice:power=all --define=__MSP430G2253__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 77: warning #70-D: integer conversion resulted in truncation
+"../main.c", line 77: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "forth_test.out"
+Invoking: MSP430 Linker
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2253__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"forth_test.map" --heap_size=80 --stack_size=80 -i"D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/lib" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="forth_test_linkInfo.xml" --use_hw_mpy=none --rom_model -o "forth_test.out" "./main.obj" "../lnk_msp430g2253.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "forth_test.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project forth_test ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" --include_path="D:/Downloads/ti/workspace_v12/forth_test" --include_path="D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --advice:power=all --define=__MSP430G2253__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 50: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "forth_test.out"
+Invoking: MSP430 Linker
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2253__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"forth_test.map" --heap_size=80 --stack_size=80 -i"D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/lib" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="forth_test_linkInfo.xml" --use_hw_mpy=none --rom_model -o "forth_test.out" "./main.obj" "../lnk_msp430g2253.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "forth_test.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project forth_test ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" --include_path="D:/Downloads/ti/workspace_v12/forth_test" --include_path="D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --advice:power=all --define=__MSP430G2253__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 50: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "forth_test.out"
+Invoking: MSP430 Linker
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2253__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"forth_test.map" --heap_size=80 --stack_size=80 -i"D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/lib" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="forth_test_linkInfo.xml" --use_hw_mpy=none --rom_model -o "forth_test.out" "./main.obj" "../lnk_msp430g2253.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "forth_test.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project oled_test ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'oled_test.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project sixth_test ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" --include_path="D:/Downloads/ti/workspace_v12/sixth_test" --include_path="D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --advice:power=all --define=__MSP430G2253__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building target: "sixth_test.out"
+Invoking: MSP430 Linker
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2253__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"sixth_test.map" --heap_size=80 --stack_size=80 -i"D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/lib" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="sixth_test_linkInfo.xml" --use_hw_mpy=none --rom_model -o "sixth_test.out" "./main.obj" "../lnk_msp430g2253.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "sixth_test.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project oled_test ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'oled_test.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project car_frame ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'car_frame.out' is up to date.
+gmake[1]: Nothing to be done for 'secondary-outputs'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project sixth_test ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" --include_path="D:/Downloads/ti/workspace_v12/sixth_test" --include_path="D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --advice:power=all --define=__MSP430G2253__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"..\oled.h", line 27: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"..\oled.h", line 28: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"..\oled.h", line 58: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"..\oled.h", line 103: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"..\oled.h", line 108: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"..\oled.h", line 116: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"..\oled.h", line 121: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"..\oled.h", line 144: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"..\oled.h", line 146: remark #2553-D: (ULP 14.1) Array index (involving "no") of type "int". Recommend using "unsigned int"
+"..\oled.h", line 146: remark #1533-D: (ULP 6.1) Detected use of multiplication on a device that has no hardware multiplier
+"..\oled.h", line 150: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"..\oled.h", line 152: remark #2553-D: (ULP 14.1) Array index (involving "no") of type "int". Recommend using "unsigned int"
+"..\oled.h", line 152: remark #1533-D: (ULP 6.1) Detected use of multiplication on a device that has no hardware multiplier
+"..\oled.h", line 166: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"..\oled.h", line 167: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"..\oled.h", line 169: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"..\oled.h", line 170: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../main.c", line 29: error #20: identifier "i" is undefined
+"../main.c", line 27: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+1 error detected in the compilation of "../main.c".
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project sixth_test ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" --include_path="D:/Downloads/ti/workspace_v12/sixth_test" --include_path="D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --advice:power=all --define=__MSP430G2253__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"..\oled.h", line 27: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"..\oled.h", line 28: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"..\oled.h", line 58: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"..\oled.h", line 103: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"..\oled.h", line 108: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"..\oled.h", line 116: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"..\oled.h", line 121: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"..\oled.h", line 144: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"..\oled.h", line 146: remark #2553-D: (ULP 14.1) Array index (involving "no") of type "int". Recommend using "unsigned int"
+"..\oled.h", line 146: remark #1533-D: (ULP 6.1) Detected use of multiplication on a device that has no hardware multiplier
+"..\oled.h", line 150: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"..\oled.h", line 152: remark #2553-D: (ULP 14.1) Array index (involving "no") of type "int". Recommend using "unsigned int"
+"..\oled.h", line 152: remark #1533-D: (ULP 6.1) Detected use of multiplication on a device that has no hardware multiplier
+"..\oled.h", line 166: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"..\oled.h", line 167: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"..\oled.h", line 169: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"..\oled.h", line 170: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../main.c", line 27: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 29: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 30: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../main.c", line 31: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 32: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../main.c", line 33: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 34: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../main.c", line 35: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 36: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../main.c", line 37: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 38: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../main.c", line 39: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 40: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+Finished building: "../main.c"
+ 
+Building target: "sixth_test.out"
+Invoking: MSP430 Linker
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2253__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"sixth_test.map" --heap_size=80 --stack_size=80 -i"D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/lib" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="sixth_test_linkInfo.xml" --use_hw_mpy=none --rom_model -o "sixth_test.out" "./main.obj" "../lnk_msp430g2253.cmd"  -llibc.a 
+<Linking>
+"../lnk_msp430g2253.cmd", line 96: error #10099-D: program will not fit into available memory, or the section contains a call site that requires a trampoline that can't be generated for this section. placement with alignment fails for section ".text" size 0x552.  Available memory ranges:
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+ 
+   FLASH        size: 0x7de        unused: 0x1ee        max hole: 0x1ee     
+>> Compilation failure
+makefile:135: recipe for target 'sixth_test.out' failed
+error #10010: errors encountered during linking; "sixth_test.out" not built
+gmake[1]: *** [sixth_test.out] Error 1
+makefile:131: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project sixth_test ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" --include_path="D:/Downloads/ti/workspace_v12/sixth_test" --include_path="D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --advice:power=all --define=__MSP430G2253__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"..\oled.h", line 27: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"..\oled.h", line 28: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"..\oled.h", line 58: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"..\oled.h", line 103: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"..\oled.h", line 108: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"..\oled.h", line 116: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"..\oled.h", line 121: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"..\oled.h", line 144: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"..\oled.h", line 146: remark #2553-D: (ULP 14.1) Array index (involving "no") of type "int". Recommend using "unsigned int"
+"..\oled.h", line 146: remark #1533-D: (ULP 6.1) Detected use of multiplication on a device that has no hardware multiplier
+"..\oled.h", line 150: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"..\oled.h", line 152: remark #2553-D: (ULP 14.1) Array index (involving "no") of type "int". Recommend using "unsigned int"
+"..\oled.h", line 152: remark #1533-D: (ULP 6.1) Detected use of multiplication on a device that has no hardware multiplier
+"..\oled.h", line 166: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"..\oled.h", line 167: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"..\oled.h", line 169: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"..\oled.h", line 170: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../main.c", line 27: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 30: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 31: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../main.c", line 32: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 33: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../main.c", line 34: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 35: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../main.c", line 36: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 37: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../main.c", line 38: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 39: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../main.c", line 40: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 41: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+Finished building: "../main.c"
+ 
+Building target: "sixth_test.out"
+Invoking: MSP430 Linker
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2253__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"sixth_test.map" --heap_size=80 --stack_size=80 -i"D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/lib" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="sixth_test_linkInfo.xml" --use_hw_mpy=none --rom_model -o "sixth_test.out" "./main.obj" "../lnk_msp430g2253.cmd"  -llibc.a 
+<Linking>
+"../lnk_msp430g2253.cmd", line 96: error #10099-D: program will not fit into available memory, or the section contains a call site that requires a trampoline that can't be generated for this section. placement with alignment fails for section ".text" size 0x550.  Available memory ranges:
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+   FLASH        size: 0x7de        unused: 0x1ee        max hole: 0x1ee     
+ 
+>> Compilation failure
+makefile:135: recipe for target 'sixth_test.out' failed
+error #10010: errors encountered during linking; "sixth_test.out" not built
+gmake[1]: *** [sixth_test.out] Error 1
+makefile:131: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project oled_test ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'oled_test.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project oled_test ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'oled_test.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project car_frame ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'car_frame.out' is up to date.
+gmake[1]: Nothing to be done for 'secondary-outputs'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project car_frame ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" --include_path="D:/Downloads/ti/workspace_v12/car_frame" --include_path="D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building target: "car_frame.out"
+Invoking: MSP430 Linker
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --define=__MSP430G2553__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"car_frame.map" --heap_size=80 --stack_size=80 -i"D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/lib" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="car_frame_linkInfo.xml" --use_hw_mpy=none --rom_model -o "car_frame.out" "./main.obj" "../lnk_msp430g2553.cmd"  -llibc.a 
+<Linking>
+Finished building target: "car_frame.out"
+ 
+Building secondary target: "car_frame.txt"
+Invoking: MSP430 Hex Utility
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/hex430" --memwidth=8 --romwidth=8 --diag_wrap=off --ti_txt -o "car_frame.txt"  "car_frame.out" 
+Translating to TI-TXT format...
+   "car_frame.out" .text ==> .text
+   "car_frame.out" .const ==> .const
+   "car_frame.out" .cinit ==> .cinit
+   "car_frame.out" $fill000 ==> $fill000
+   "car_frame.out" TRAPINT ==> TRAPINT
+   "car_frame.out" PORT1 ==> PORT1
+   "car_frame.out" PORT2 ==> PORT2
+   "car_frame.out" ADC10 ==> ADC10
+   "car_frame.out" USCIAB0TX ==> USCIAB0TX
+   "car_frame.out" USCIAB0RX ==> USCIAB0RX
+   "car_frame.out" TIMER0_A1 ==> TIMER0_A1
+   "car_frame.out" TIMER0_A0 ==> TIMER0_A0
+   "car_frame.out" WDT ==> WDT
+   "car_frame.out" COMPARATORA ==> COMPARATORA
+   "car_frame.out" TIMER1_A1 ==> TIMER1_A1
+   "car_frame.out" TIMER1_A0 ==> TIMER1_A0
+   "car_frame.out" NMI ==> NMI
+   "car_frame.out" .reset ==> .reset
+Finished building secondary target: "car_frame.txt"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project sixth_test ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building target: "sixth_test.out"
+Invoking: MSP430 Linker
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2253__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"sixth_test.map" --heap_size=80 --stack_size=80 -i"D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/lib" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="sixth_test_linkInfo.xml" --use_hw_mpy=none --rom_model -o "sixth_test.out" "./main.obj" "../lnk_msp430g2253.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 1 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+"../lnk_msp430g2253.cmd", line 96: error #10099-D: program will not fit into available memory, or the section contains a call site that requires a trampoline that can't be generated for this section. placement with alignment fails for section ".text" size 0x550.  Available memory ranges:
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+ 
+>> Compilation failure
+makefile:135: recipe for target 'sixth_test.out' failed
+   FLASH        size: 0x7de        unused: 0x1ee        max hole: 0x1ee     
+error #10010: errors encountered during linking; "sixth_test.out" not built
+gmake[1]: *** [sixth_test.out] Error 1
+makefile:131: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project oled_test ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'oled_test.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project oled_test ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'oled_test.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project third_test ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'third_test.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project car_frame ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'car_frame.out' is up to date.
+gmake[1]: Nothing to be done for 'secondary-outputs'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project first_test ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'first_test.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project second_test ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" --include_path="D:/Downloads/ti/workspace_v12/second_test" --include_path="D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --advice:power=all --define=__MSP430G2253__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building target: "second_test.out"
+Invoking: MSP430 Linker
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2253__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"second_test.map" --heap_size=80 --stack_size=80 -i"D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/lib" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="second_test_linkInfo.xml" --use_hw_mpy=none --rom_model -o "second_test.out" "./main.obj" "../lnk_msp430g2253.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "second_test.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project second_test ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'second_test.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project second_test ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'second_test.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project forth_test ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --include_path="D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" --include_path="D:/Downloads/ti/workspace_v12/forth_test" --include_path="D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --advice:power=all --define=__MSP430G2253__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 33: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+Finished building: "../main.c"
+ 
+Building target: "forth_test.out"
+Invoking: MSP430 Linker
+"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/bin/cl430" -vmsp --use_hw_mpy=none --advice:power=all --define=__MSP430G2253__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number -z -m"forth_test.map" --heap_size=80 --stack_size=80 -i"D:/Downloads/ti/ccs1271/ccs/ccs_base/msp430/include" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/lib" -i"D:/Downloads/ti/ccs1271/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="forth_test_linkInfo.xml" --use_hw_mpy=none --rom_model -o "forth_test.out" "./main.obj" "../lnk_msp430g2253.cmd"  -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 2 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port 3 in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "forth_test.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project forth_test ****
+
+"D:\\Downloads\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+gmake[1]: 'forth_test.out' is up to date.
+
+**** Build Finished ****
