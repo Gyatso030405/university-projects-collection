@@ -18,8 +18,7 @@
 </code></pre>
 <p>到目前，库里有<em>数据结构作业</em> ；<em>FPGA数字钟</em>  ；<em>单片机小车</em> ；<em>STM32温湿度检测机</em> 等等。<br>
 由于该项目会较为庞杂，有些项目可能还暂且不需要下载。所以为了方便下载你所要的项目，<a href="https://minhaskamal.github.io/DownGit/#/home">点击这里</a>,仓库某个<strong>具体文件夹的链接粘贴进去</strong>，比如：</p>
-<pre><code>https://github.com/Gyatso030405//raspi-LLM/blob/master/qwen2.5-0.5b-instruct-q2_k.zip
-</code></pre>
+<p><a href="https://github.com/Gyatso030405/university-projects-collection/tree/master/FPGA/digital_clock">https://github.com/Gyatso030405/university-projects-collection/tree/master/FPGA/digital_clock</a></p>
 <p>还有一些其他项目地址：<br>
 <a href="https://github.com/Gyatso030405/flash_streaming_video_raspi/tree/master">树莓派网页端视频流</a><br>
 <a href="https://github.com/Gyatso030405/Visual-Fourier">基于MATLAB的傅里叶可视化</a><br>
