@@ -35,7 +35,7 @@
 <a href="%5B%E8%82%A5%E7%8C%AB%E4%BA%91%E6%9C%BA%E5%9C%BA-%E5%A4%A7%E5%B8%A6%E5%AE%BD%E4%B8%8D%E9%99%90%E9%80%9F%E4%B8%93%E7%BA%BF%E6%9C%BA%E5%9C%BA%5D(https://fccc02.fatcatcloud.me/#/stage/dashboard)">肥猫云</a>(个人使用，比较推荐)<br>
 <a href="https://3jkkvi9afjjln2yjwnbc.wgetcloud.org/">WegetCloud</a><br>
 大家也可以按自己情况在网上找一些(<a href="https://clashcn.com/">这个网站</a>可能也会帮到大家)，也有一些免费的(但可能不会特别稳定)。如今在网上这种东西很多。对于这番方面有兴趣的也可以自己尝试搭建一些，不过成本会比直接购买一个稳定的<code>商业机场</code>订阅会高一些，需要租国外<code>VPS</code>和<code>域名</code>。</p>
-<pre><code>提示：具体使用方法一般每个机场都有教程，我就不都追溯了。
+<pre><code>提示：具体使用方法一般每个机场都有教程，我就不都赘述了。
 </code></pre>
 <p>还有就是<code>IOS</code>系统的科学上网，由于iPhone，iPad的系统环境特点，想要挂梯子会比较困难。下面我讲个大概思路。（我也没试过）</p>
 <ol>
