@@ -68,6 +68,9 @@
 <blockquote>
 <p>如果你用的是免费的<code>Spectre</code>，那这第4部分就不用管，打开<code>Spectre</code>进入<code>切换服务器</code>，选<code>订阅</code>再点击右上角<code>+</code>,将Shadowsocks或Trojan链接粘贴至URL输入框即可。然后你就可以用<code>Ipad</code>或者<code>Iphone</code>进行对<code>YouTube</code>；<code>ChatGPT</code>；<code>Instagram</code>等应用进行愉快的浏览使用了。</p>
 </blockquote>
+<blockquote>
+<p><code>Spectre</code>是苹果<code>iOS</code>系统平台非常难得的<strong>免费</strong>代理工具，支持<code>Shadowsocks</code>和<code>Trojan</code>协议轻量级、高效的代理应用，但不支持<code>V2Ray(VMess)/Xray(VLESS)</code>等其他协议，如果需要支持全面主流协议的客户端推荐购买<code>Shadowrocket小火箭</code>（美区价格$2.99）、<code>Quantumult</code>（美区价格$9.99）等付费应用，如果你购买的机场服务商提供<code>Shadowsocks</code>或<code>Trojan</code>协议，那可以直接使用免费的 Spectre！</p>
+</blockquote>
 <h2 id="第三部分">第三部分</h2>
 <blockquote>
 <p>这里的话到目前为止还没想好要写什么，可能以后会补充，大家也可以按自己的生活生活学习经验在这里进行补充。</p>
