@@ -30,7 +30,7 @@
 </blockquote>
 <pre><code> 注意！！！：如果是新手，大家在使用这样更广阔的平台时，一定要有明辨是非的能力，外面的互联网环境各种资料非常丰富(只要英语好)，但也非常危险，各种反动思想无处不在！切记擦亮眼睛！！
 </code></pre>
-<p>clash软件<a href="">windows/Android/Mac/Linux</a><br>
+<p>clash软件<a href="https://github.com/Gyatso030405/university-projects-collection/tree/master/clash">windows/Android/Mac/Linux</a><br>
 机场：<br>
 <a href="https://fccc02.fatcatcloud.me/#/stage/dashboard">肥猫云</a>(个人使用，比较推荐)<br>
 <a href="https://3jkkvi9afjjln2yjwnbc.wgetcloud.org/">WegetCloud</a><br>
