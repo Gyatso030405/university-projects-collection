@@ -37,7 +37,7 @@
 大家也可以按自己情况在网上找一些(<a href="https://clashcn.com/">这个网站</a>可能也会帮到大家)，也有一些免费的(但可能不会特别稳定)。如今在网上这种东西很多。对于这番方面有兴趣的也可以自己尝试搭建一些，不过成本会比直接购买一个稳定的<code>商业机场</code>订阅会高一些，需要租国外<code>VPS</code>和<code>域名</code>。</p>
 <pre><code>提示：具体使用方法一般每个机场都有教程，我就不都赘述了。
 </code></pre>
-<p>还有就是<code>IOS</code>系统的科学上网，由于iPhone，iPad的系统环境特点，想要挂梯子会比较困难。下面我讲个大概思路。（我也没试过）</p>
+<p>还有就是<code>IOS</code>系统的科学上网，由于iPhone，iPad的系统环境特点，想要挂梯子会比较困难。下面我讲个大概思路。</p>
 <ol>
 <li>一种是直接在AppStore里面变更地区，但这样的话，如果你已经订阅了中国区的 Apple 服务（如 Apple Music、iCloud+、订阅 app），<strong>必须先取消所有订阅并等待过期</strong>才能切换。</li>
 </ol>
@@ -66,7 +66,7 @@
 </li>
 </ol>
 <blockquote>
-<p>如果你用的是免费的<code>Spectre</code>，那这第4部分就不用管，打开<code>Spectre</code>进入<code>切换服务器</code>，选<code>订阅</code>再点击右上角<code>+</code>,将Shadowsocks或Trojan链接粘贴至URL输入框即可。然后你就可以用<code>Ipad</code>或者<code>Iphone</code>进行对<code>YouTube</code>；<code>ChatGPT</code>；<code>Instagram</code>等应用的浏览使用了。</p>
+<p>如果你用的是免费的<code>Spectre</code>，那这第4部分就不用管，打开<code>Spectre</code>进入<code>切换服务器</code>，选<code>订阅</code>再点击右上角<code>+</code>,将Shadowsocks或Trojan链接粘贴至URL输入框即可。然后你就可以用<code>Ipad</code>或者<code>Iphone</code>进行对<code>YouTube</code>；<code>ChatGPT</code>；<code>Instagram</code>等应用进行愉快的浏览使用了。</p>
 </blockquote>
 <h2 id="第三部分">第三部分</h2>
 <blockquote>
