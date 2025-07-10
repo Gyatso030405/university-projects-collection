@@ -54,17 +54,20 @@
 <p>注册美区<code>Apple ID</code> :首先在<a href="https://account.apple.com/">Apple账户</a>网站注册一个美区苹果账号。这个<a href="https://naiyous.com/7829.html">网站</a>会给你提供帮助，里面的邮箱最好用<code>gmail.com</code>或者<code>outlook.com</code>等国外邮箱，最好不要<code>QQ</code>(并非完全不可用)。里面的电话号码就不要用生成器生成，可以打开地图，随便在地图上找一个当地酒店等的电话号码使用（你以后恐怕也用不上，不必担心，只是为了注册账号）。</p>
 </li>
 <li>
-<p>创建完自己的美区<code>Apple ID</code>后，设备在<code>AppStore</code>登录并找到<code>Shadowrocket</code>，一个有火箭标志的软件(为付费软件)。</p>
+<p>创建完自己的美区<code>Apple ID</code>后，设备在<code>AppStore</code>登录并找到<code>Shadowrocket</code>或者<code>Spectre</code>(推荐，这是免费，这样就不用麻烦的进行礼品卡购买)。</p>
 </li>
 <li>
-<p>然后便是付费问题(一般这里是最难的)，一般情况下就是购买<code>礼品卡</code>，由于我们没有国外信用卡，所以相当的不方便，这里给大家推荐一些网站或方法：</p>
+<p>（如果你使用<code>Shadowrocket</code>）然后便是付费问题(一般这里是最难的)，一般情况下就是购买<code>礼品卡</code>，由于我们没有国外信用卡，所以相当的不方便，这里给大家推荐一些网站或方法：</p>
 <pre><code>注意：这些方法本人没有尝试过，仅供参考！！！
 </code></pre>
-</li>
-</ol>
 <p><a href="https://www.seagm.com/zh-cn">SEAGM</a>   (支持支付宝，微信等)<br>
 也可以在<code>支付宝</code>里面直接搜<code>礼品卡</code>找到<code>PockyShop</code>进行购买尝试。<br>
 其他也有<a href="https://www.amazon.com/">亚马逊</a>；<a href="https://www.mygiftcardsupply.com/">MyGiftCardSupply</a>等网站，但由于支付方式等，可能不会很方便。大概便是如此。</p>
+</li>
+</ol>
+<blockquote>
+<p>如果你用的是免费的<code>Spectre</code>，那这第4部分就不用管，打开<code>Spectre</code>进入<code>切换服务器</code>，选<code>订阅</code>再点击右上角<code>+</code>,将Shadowsocks或Trojan链接粘贴至URL输入框即可。然后你就可以用<code>Ipad</code>或者<code>Iphone</code>进行对<code>YouTube</code>；<code>ChatGPT</code>；<code>Instagram</code>等应用的浏览使用了。</p>
+</blockquote>
 <h2 id="第三部分">第三部分</h2>
 <blockquote>
 <p>这里的话到目前为止还没想好要写什么，可能以后会补充，大家也可以按自己的生活生活学习经验在这里进行补充。</p>
